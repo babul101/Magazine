@@ -1,0 +1,58 @@
+/* Logo */
+
+.logo a {
+    text-decoration: none;
+    font-family: "Playfair Display",serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #d72368;
+}
+
+/* Navigation List */
+
+.main-nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 38px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #444;
+    position: relative;
+    padding-bottom: 4px;
+    transition: 0.25s ease;
+}
+
+/* Hover and Active colors */
+
+.main-nav a:hover {
+    color: #000;
+}
+
+.main-nav a.active {
+    color: #000;
+}
+
+.main-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    width: 0%;
+    background: #000;
+    transition: width 0.22s ease;
+}
+
+.main-nav a:hover::after,
+.main-nav a.active::after {
+    width: 100%;
+}
