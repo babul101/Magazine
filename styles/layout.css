@@ -15,3 +15,13 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+/* Responsive Layout */
+
+@media (max-width:900px){
+    .header-top {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}

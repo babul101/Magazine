@@ -56,3 +56,22 @@
 .main-nav a.active::after {
     width: 100%;
 }
+
+/* Responsive Nav Layout */
+
+@media (max-width:900px) {
+    .main-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 22px;
+    }
+    .logo a {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width:600px){
+    .main-nav ul {
+        gap: 16px;
+    }
+}
