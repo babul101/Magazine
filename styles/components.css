@@ -75,3 +75,63 @@
         gap: 16px;
     }
 }
+
+/* -------------------- */
+/* Hero Section */
+/* -------------------- */
+
+/* Tag Badge */
+
+.hero-text .tag {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #d72368;
+    color: #fff;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    font-family: "Playfair Display",serif;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    color: #111;
+    margin-bottom: 18px;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-bottom: 26px;
+}
+
+.hero-readmore {
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #111;
+    border-bottom: 2px solid #111;
+    transition: 0.3s ease;
+}
+
+.hero-readmore:hover {
+    color: #d72368;
+    border-color: #d72368;
+}
+
+/* Responsive Layout */
+
+@media (max-width:600px){
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}

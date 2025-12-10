@@ -25,3 +25,49 @@ header {
         text-align: center;
     }
 }
+
+/* Hero Section Layout */
+
+.hero-feature {
+    width: 100%;
+    padding: 60px 0;
+    background: #ffffff;
+    border-bottom: 1px solid #ececec;
+}
+
+.hero-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Responsive Behaviour */
+
+@media (max-width:900px){
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .hero-text {
+        order: 1;
+    }
+    .hero-image {
+        order: 2;
+    }
+}
