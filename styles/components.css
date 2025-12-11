@@ -1,79 +1,79 @@
 /* Logo */
 
 .logo a {
-    text-decoration: none;
-    font-family: "Playfair Display",serif;
-    font-size: 2.2rem;
-    font-weight: 700;
-    color: #111;
-    letter-spacing: 1px;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 1px;
 }
 
 .logo span {
-    color: #d72368;
+  color: #d72368;
 }
 
 /* Navigation List */
 
 .main-nav ul {
-    display: flex;
-    list-style-type: none;
-    gap: 38px;
+  display: flex;
+  list-style-type: none;
+  gap: 38px;
 }
 
 .main-nav a {
-    text-decoration: none;
-    font-size: 1.05rem;
-    font-weight: 500;
-    color: #444;
-    position: relative;
-    padding-bottom: 4px;
-    transition: 0.25s ease;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #444;
+  position: relative;
+  padding-bottom: 4px;
+  transition: 0.25s ease;
 }
 
 /* Hover and Active colors */
 
 .main-nav a:hover {
-    color: #000;
+  color: #000;
 }
 
 .main-nav a.active {
-    color: #000;
+  color: #000;
 }
 
 .main-nav a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 2px;
-    width: 0%;
-    background: #000;
-    transition: width 0.22s ease;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  width: 0%;
+  background: #000;
+  transition: width 0.22s ease;
 }
 
 .main-nav a:hover::after,
 .main-nav a.active::after {
-    width: 100%;
+  width: 100%;
 }
 
 /* Responsive Nav Layout */
 
-@media (max-width:900px) {
-    .main-nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 22px;
-    }
-    .logo a {
-        font-size: 1.9rem;
-    }
+@media (max-width: 900px) {
+  .main-nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+  }
+  .logo a {
+    font-size: 1.9rem;
+  }
 }
 
-@media (max-width:600px){
-    .main-nav ul {
-        gap: 16px;
-    }
+@media (max-width: 600px) {
+  .main-nav ul {
+    gap: 16px;
+  }
 }
 
 /* -------------------- */
@@ -83,57 +83,57 @@
 /* Tag Badge */
 
 .hero-text .tag {
-    display: inline-block;
-    padding: 6px 14px;
-    background: #d72368;
-    color: #fff;
-    font-size: 0.85rem;
-    border-radius: 20px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    margin-bottom: 18px;
-    text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 14px;
+  background: #d72368;
+  color: #fff;
+  font-size: 0.85rem;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+  text-transform: uppercase;
 }
 
 .hero-title {
-    font-family: "Playfair Display",serif;
-    font-size: 2.8rem;
-    line-height: 1.2;
-    color: #111;
-    margin-bottom: 18px;
+  font-family: "Playfair Display", serif;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  color: #111;
+  margin-bottom: 18px;
 }
 
 .hero-subtitle {
-    font-size: 1.1rem;
-    color: #444;
-    line-height: 1.6;
-    max-width: 600px;
-    margin-bottom: 26px;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 26px;
 }
 
 .hero-readmore {
-    text-decoration: none;
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: #111;
-    border-bottom: 2px solid #111;
-    transition: 0.3s ease;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #111;
+  border-bottom: 2px solid #111;
+  transition: 0.3s ease;
 }
 
 .hero-readmore:hover {
-    color: #d72368;
-    border-color: #d72368;
+  color: #d72368;
+  border-color: #d72368;
 }
 
 /* Responsive Layout */
 
-@media (max-width:600px){
-    .hero-title {
-        font-size: 2.2rem;
-    }
-    .hero-subtitle {
-        font-size: 1rem;
-    }
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
 }
 
 /*---------------------------  */
@@ -143,143 +143,185 @@
 /* Tag inside story */
 
 .story-tag {
-    display: inline-block;
-    background: #d72368;
-    color: #fff;
-    padding: 4px 10px;
-    font-size: 0.8rem;
-    border-radius: 12px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    font-weight: 600;
+  display: inline-block;
+  background: #d72368;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 /* Title */
 
 .story-title {
-    font-size: 1.3rem;
-    font-family: "Playfair Display",serif;
-    margin-bottom: 10px;
-    color: #111;
-    line-height: 1.3;
-    transition: 0.3s ease;
+  font-size: 1.3rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 10px;
+  color: #111;
+  line-height: 1.3;
+  transition: 0.3s ease;
 }
 
 /* Description */
 
 .story-desc {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
 }
 
 /* Hover Effect on card */
 
 .story-card:hover .story-title {
-    cursor: pointer;
-    color: #d72368;
+  cursor: pointer;
+  color: #d72368;
 }
-
 
 /* Editors Picks */
 
 .pick-tag {
-    display: inline-block;
-    background: #111;
-    color: #fff;
-    padding: 4px 10px;
-    font-size: 0.75rem;
-    border-radius: 12px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .pick-title {
-    font-family: "Playfair Display",serif;
-    font-size: 1.5rem;
-    margin-bottom: 12px;
-    color: #111;
-    line-height: 1.3;
-    transition: 0.3s ease;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #111;
+  line-height: 1.3;
+  transition: 0.3s ease;
 }
 
 .pick-desc {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
-    max-width: 650px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  max-width: 650px;
 }
 
 .pick-card:hover .pick-title {
-    color: #d72368;
-    cursor: pointer;
+  color: #d72368;
+  cursor: pointer;
 }
 
 /* Category Components */
 
 .category-title {
-    position: absolute;
-    bottom: 15px;
-    left: 20px;
-    font-family: "Playfair Display",serif;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 700;
-    z-index: 2;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  z-index: 2;
 }
 
 /* Gradient overlay for redability */
 
 .category-card::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 45%;
-    background: linear-gradient(to top ,rgba(0,0,0,0.75),rgba(0,0,0,0));
-    z-index: 1;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 45%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  z-index: 1;
 }
 
 .category-card:hover img {
-    transform: scale(1.07);
-    filter: brightness(0.85);
+  transform: scale(1.07);
+  filter: brightness(0.85);
 }
 
 /* Latest Stories Component */
 
 .latest-tag {
-    display: inline-block;
-    background: #d72368;
-    color: #fff;
-    padding: 4px 10px;
-    font-size: 0.75rem;
-    border-radius: 12px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+  display: inline-block;
+  background: #d72368;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .latest-title {
-    font-family: "Playfair Display",serif;
-    font-size: 1.4rem;
-    margin-bottom: 8px;
-    color: #111;
-    line-height: 1.3;
-    transition: 0.3s ease;
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #111;
+  line-height: 1.3;
+  transition: 0.3s ease;
 }
 
 .latest-desc {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
 }
 
 .latest-card:hover .latest-title {
-    cursor: pointer;
-    color: #d72368;
+  cursor: pointer;
+  color: #d72368;
+}
+
+/* Quote Block Component */
+
+.quote-block blockquote {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.quote-author {
+  color: #bbb;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.easy-quote {
+  quotes: "“" "”";
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.easy-quote::before {
+  content: open-quote;
+}
+.easy-quote::after {
+  content: close-quote;
+}
+
+
+.quote-container {
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;transform:translateY(20px)}
+    to {opacity: 1;transform:translateY(0) ;}
 }
