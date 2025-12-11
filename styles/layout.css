@@ -125,3 +125,45 @@ header {
         grid-template-columns: 1fr;
     }
 }
+
+/* ------------------------ */
+/* Editor's Pic layout */
+/* ------------------------ */
+
+.editors-picks {
+    max-width: 1300px;
+    margin: 80px auto;
+    padding: 0 24px;
+}
+
+.picks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pick-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.pick-image img {
+    object-fit: cover;
+    border-radius: 8px;
+    width: 260px;
+    height: 170px;
+}
+
+/* Responsive */
+
+@media (max-width:900px){
+    .pick-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pick-image img {
+        width: 100%;
+        height: 240px;
+    }
+}
