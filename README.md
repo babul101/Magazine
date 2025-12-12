@@ -44,7 +44,7 @@ This project focuses on modern layouts, typography, and aesthetic UI patterns co
 
 ## 🗂 Project Structure
 
-MAGAZINE-SITE
+```MAGAZINE-SITE
 │
 ├── assets/
 │
@@ -57,7 +57,7 @@ MAGAZINE-SITE
 ├── LICENSE
 └── README.md
 
-
+```
 ---
 
 ## 🎨 Tech Stack
