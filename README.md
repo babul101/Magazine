@@ -45,14 +45,18 @@ This project focuses on modern layouts, typography, and aesthetic UI patterns co
 ## 🗂 Project Structure
 
 MAGAZINE-SITE
-│── assets/
-│── styles/
+│
+├── assets/
+│
+├── styles/
 │   ├── base.css
 │   ├── components.css
-│   ├── layout.css
-│── index.html
-│── LICENSE
-│── README.md
+│   └── layout.css
+│
+├── index.html
+├── LICENSE
+└── README.md
+
 
 ---
 
