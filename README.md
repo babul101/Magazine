@@ -46,18 +46,14 @@ This project focuses on modern layouts, typography, and aesthetic UI patterns co
 
 MAGAZINE-SITE
 │── assets/
-│ ├
-│ └── icons/ # Social icons (SVG/PNG)
-│
 │── styles/
-│ ├── base.css # Variables, reset, typography, colors
-│ ├── layout.css # Header, hero, grids, footer layout
-│ ├── components.css # Buttons, cards, tags, story blocks
-│ 
-│
-│── index.html # Main HTML file
-│── LICENSE # License for project usage
-│── README.md # Documentation
+│   ├── base.css
+│   ├── components.css
+│   ├── layout.css
+│── index.html
+│── LICENSE
+│── README.md
+
 ---
 
 ## 🎨 Tech Stack
