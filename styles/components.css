@@ -27,7 +27,7 @@
   font-weight: 500;
   color: #444;
   position: relative;
-  padding-bottom: 4px;
+  /* padding-bottom: 4px; */
   transition: 0.25s ease;
 }
 
@@ -419,4 +419,39 @@
 
 .footer-form button:hover {
   background: #b81e2d;
+}
+
+
+/* Up Going */
+
+.site-footer {
+  position: relative; /* allow absolute positioning inside footer */
+}
+
+/* Back to Top Button */
+.back-to-top-btn {
+  position: absolute;  /* positioned relative to footer */
+  bottom: 20px;        /* distance from bottom of footer */
+  right: 20px;         /* distance from right edge */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #d72368;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  opacity: 1;           /* visible only in footer */
+  transition: transform 0.3s ease;
+}
+
+.back-to-top-btn:hover {
+  transform: translateY(-3px);
+  background: #b81e2d;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
 }
